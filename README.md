@@ -5,4 +5,4 @@ G4Studio行业应用二次快速开发平台基于JavaEE技术体系，面向中
 ### G4Studio在线演示系统
 [http://g4studio-demo.g4it.org](http://g4studio-demo.g4it.org)
 ### G4Studio截屏
-![github](http://www.g4it.org/static/image/common/logo.gif "G4Studio截屏")
+![github](http://www.g4it.org/data/attachment/forum/201306/09/2230251qry1cdpxp919rqp.gif "G4Studio截屏")
