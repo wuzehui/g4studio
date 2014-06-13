@@ -1,4 +1,4 @@
-prompt PL/SQL Developer import file
+pprompt PL/SQL Developer import file
 prompt Created on 2013Äê4ÔÂ6ÈÕ by Administrator
 set feedback off
 set define off
@@ -1143,8 +1143,6 @@ values ('010301', 'ÆäËü', '0103', null, '0', null, '0', 8, null, null, '0', null
 insert into EAMENU (menuid, menuname, parentid, iconcls, expanded, request, leaf, sortno, remark, icon, menutype, shortcut, width, height, scrollbar)
 values ('01030101', 'ÏµÍ³Ô¤ÖÃÍ¼±ê', '010301', 'imagesIcon', '0', 'resource.do?reqCode=iconInit', '1', 1, null, 'images.png', '0', 'shortcut_9.png', null, null, '0');
 insert into EAMENU (menuid, menuname, parentid, iconcls, expanded, request, leaf, sortno, remark, icon, menutype, shortcut, width, height, scrollbar)
-values ('01030102', 'µ÷É«°å', '010301', 'theme2Icon', '0', 'resource.do?reqCode=colorPaletteInit', '1', 2, null, 'theme2.png', '0', 'paint.png', null, null, '0');
-insert into EAMENU (menuid, menuname, parentid, iconcls, expanded, request, leaf, sortno, remark, icon, menutype, shortcut, width, height, scrollbar)
 values ('010302', 'µ÷ÊÔ', '0103', null, '0', null, '0', 9, null, null, '0', null, null, null, '0');
 insert into EAMENU (menuid, menuname, parentid, iconcls, expanded, request, leaf, sortno, remark, icon, menutype, shortcut, width, height, scrollbar)
 values ('01030201', 'µ÷ÊÔÒ³Ãæ1', '010302', null, '0', 'demo/test.do?reqCode=test1Init', '1', 1, null, null, '0', null, null, null, '0');
@@ -1343,9 +1341,9 @@ values ('10000009', 'DEFAULT_ADMIN_ACCOUNT', 'super', 'Ä¬ÈÏ³¬¼¶¹ÜÀíÔ±ÕÊ»§');
 insert into EAPARAM (paramid, paramkey, paramvalue, remark)
 values ('10000010', 'DEFAULT_DEVELOP_ACCOUNT', 'developer', 'ÏµÍ³Ä¬ÈÏ¿ª·¢×¨ÓÃÕÊ»§');
 insert into EAPARAM (paramid, paramkey, paramvalue, remark)
-values ('10000017', 'SYS_TITLE', 'G4Studio£ºJavaEEĞĞÒµÓ¦ÓÃ¶ş´Î¿ìËÙ¿ª·¢Æ½Ì¨V5.0', 'ÏµÍ³±êÌâ');
+values ('10000017', 'SYS_TITLE', 'G4Studio£ºJavaEEĞĞÒµÓ¦ÓÃ¶ş´Î¿ìËÙ¿ª·¢Æ½Ì¨V5.2', 'ÏµÍ³±êÌâ');
 insert into EAPARAM (paramid, paramkey, paramvalue, remark)
-values ('10000018', 'LOGIN_WINDOW_TITLE', 'G4Studio - JavaEEĞĞÒµÓ¦ÓÃ¶ş´Î¿ìËÙ¿ª·¢Æ½Ì¨V5.0', 'µÇÂ¼´°¿Ú±êÌâ');
+values ('10000018', 'LOGIN_WINDOW_TITLE', 'G4Studio - JavaEEĞĞÒµÓ¦ÓÃ¶ş´Î¿ìËÙ¿ª·¢Æ½Ì¨V5.2', 'µÇÂ¼´°¿Ú±êÌâ');
 insert into EAPARAM (paramid, paramkey, paramvalue, remark)
 values ('10000019', 'LOGIN_WINDOW_BANNER', '/resource/image/login_banner.png', 'µÇÂ¼´°¿ÚµÄBannerÍ¼Æ¬¡£³ß´ç¹æ¸ñ:450 X 70');
 insert into EAPARAM (paramid, paramkey, paramvalue, remark)
@@ -1369,7 +1367,7 @@ values ('10000029', 'TITLE_ICON', 'g4.ico', 'ÏÔÊ¾ÔÚä¯ÀÀÆ÷±êÌâÇ°ÃæµÄĞ¡Í¼±ê(×¢:±ØĞ
 insert into EAPARAM (paramid, paramkey, paramvalue, remark)
 values ('10000031', 'EXCEPTION_CLIENT_WIN_SIZE', '400,150', '¿Í»§¶ËÒì³£ĞÅÏ¢´°¿Ú¿í¶È¸ß¶ÈÉèÖÃ');
 insert into EAPARAM (paramid, paramkey, paramvalue, remark)
-values ('10000030', 'EXCEPTION_CLIENT_MSG', 'Òì³£ĞÅÏ¢¡£', '¿Í»§¶ËÒì³£ÏìÓ¦¸ÅÒªĞÅÏ¢');
+values ('10000030', 'EXCEPTION_CLIENT_MSG', 'ÏµÍ³·¢Éú´íÎó£¬ÇëºÍ¹ÜÀíÔ±ÁªÏµ¡£', '¿Í»§¶ËÒì³£ÏìÓ¦¸ÅÒªĞÅÏ¢');
 insert into EAPARAM (paramid, paramkey, paramvalue, remark)
 values ('10000033', 'APP_LAYOUT', '1', 'ÏµÍ³¼¶È±Ê¡Ö÷½çÃæ²¼¾ÖÄ£Ê½¡£1:´«Í³¾­µä²¼¾Ö;2:¸öĞÔ×ÀÃæ²¼¾Ö¡£');
 insert into EAPARAM (paramid, paramkey, paramvalue, remark)

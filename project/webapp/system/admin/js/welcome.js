@@ -22,7 +22,7 @@ Ext.onReady(function() {
 
 	var my_height1 = document.body.clientHeight - 35;
 	var my_height = document.body.clientHeight - 65;
-	var my_sina = '<div class=commoncss><iframe width="100%" height="' + my_height + '" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=zh_cn&width=0&height=' + my_height + '&fansRow=2&ptype=1&speed=300&skin=5&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=2756431474&verifier=3f8e70e3&dpc=1"></iframe></div>';
+	var my_sina = '';
 	var viewport = new Ext.Viewport({
 		layout : 'border',
 		items : [{

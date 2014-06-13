@@ -619,7 +619,6 @@ INSERT INTO `eamenu` VALUES ('01021605', '客户端请求异常处理', '010216'
 INSERT INTO `eamenu` VALUES ('0103', '开发人员工具箱', '01', 'configIcon', '0', '', '0', '3', '', '', '0', null, null, null, null);
 INSERT INTO `eamenu` VALUES ('010301', '其它', '0103', '', '0', '', '0', '8', '', '', '0', null, null, null, null);
 INSERT INTO `eamenu` VALUES ('01030101', '系统预置图标', '010301', 'imagesIcon', '0', 'resource.do?reqCode=iconInit', '1', '1', '', 'images.png', '0', 'shortcut_9.png', null, null, null);
-INSERT INTO `eamenu` VALUES ('01030102', '调色板', '010301', 'theme2Icon', '0', 'resource.do?reqCode=colorPaletteInit', '1', '2', '', 'theme2.png', '0', 'paint.png', null, null, '');
 INSERT INTO `eamenu` VALUES ('010302', '调试', '0103', '', '0', '', '0', '9', '', '', '0', null, null, null, null);
 INSERT INTO `eamenu` VALUES ('01030201', '调试页面1', '010302', '', '0', 'http://www.g4studio.org', '1', '1', '', '', '0', 'onebit_17.png', null, null, '1');
 INSERT INTO `eamenu` VALUES ('01030202', '调试页面2', '010302', '', '0', 'demo/test.do?reqCode=test2Init', '1', '2', '', '', '0', null, null, null, null);
@@ -669,8 +668,8 @@ CREATE TABLE `eaparam` (
 INSERT INTO `eaparam` VALUES ('10000008', 'SYS_DEFAULT_THEME', 'default', '系统默认主题皮肤');
 INSERT INTO `eaparam` VALUES ('10000009', 'DEFAULT_ADMIN_ACCOUNT', 'super', '默认超级管理员帐户');
 INSERT INTO `eaparam` VALUES ('10000010', 'DEFAULT_DEVELOP_ACCOUNT', 'developer', '系统默认开发专用帐户');
-INSERT INTO `eaparam` VALUES ('10000017', 'SYS_TITLE', 'G4Studio：JavaEE行业应用二次快速开发平台V5.0', '系统标题');
-INSERT INTO `eaparam` VALUES ('10000018', 'LOGIN_WINDOW_TITLE', 'G4Studio&reg - JavaEE行业应用二次快速开发平台V5.0', '登录窗口标题');
+INSERT INTO `eaparam` VALUES ('10000017', 'SYS_TITLE', 'G4Studio：JavaEE行业应用二次快速开发平台V5.2', '系统标题');
+INSERT INTO `eaparam` VALUES ('10000018', 'LOGIN_WINDOW_TITLE', 'G4Studio&reg - JavaEE行业应用二次快速开发平台V5.2', '登录窗口标题');
 INSERT INTO `eaparam` VALUES ('10000019', 'LOGIN_WINDOW_BANNER', '/resource/image/login_banner.png', '登录窗口的Banner图片。尺寸规格:450 X 70');
 INSERT INTO `eaparam` VALUES ('10000020', 'WEST_NAVIGATE_TITLE', '系统导航', '左边菜单导航栏标题');
 INSERT INTO `eaparam` VALUES ('10000021', 'BOTTOM_COPYRIGHT', 'Copyright&copy 2008 XiongChun 中国.上海', '右下角的版权信息');
@@ -681,7 +680,7 @@ INSERT INTO `eaparam` VALUES ('10000025', 'PAGE_LOAD_MSG', 'G4模板引擎组件
 INSERT INTO `eaparam` VALUES ('10000027', 'MULTI_SESSION', '1', '是否允许同一个帐户建立多个会话连接。1:允许;0:不允许');
 INSERT INTO `eaparam` VALUES ('10000028', 'WEST_CARDMENU_ACTIVEONTOP', '1', '左侧卡片树菜单当前活动卡片是否置顶1:置顶;0:不置顶');
 INSERT INTO `eaparam` VALUES ('10000029', 'TITLE_ICON', 'g4.ico', '显示在浏览器标题前面的小图标(注:必须为.ico格式)');
-INSERT INTO `eaparam` VALUES ('10000030', 'EXCEPTION_CLIENT_MSG', '异常信息', '客户端异常响应概要信息');
+INSERT INTO `eaparam` VALUES ('10000030', 'EXCEPTION_CLIENT_MSG', '系统发生错误，请和管理员联系。', '客户端异常响应概要信息');
 INSERT INTO `eaparam` VALUES ('10000031', 'EXCEPTION_CLIENT_WIN_SIZE', '400,150', '客户端异常信息窗口宽度高度设置');
 INSERT INTO `eaparam` VALUES ('10000033', 'APP_LAYOUT', '1', '系统级缺省主界面布局模式。1:传统经典布局;2:个性桌面布局。');
 INSERT INTO `eaparam` VALUES ('10000034', 'DESKTOP_BACKGROUND', 'desktop2.jpg', '系统缺省桌面背景图片');
