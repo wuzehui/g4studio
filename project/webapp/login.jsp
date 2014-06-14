@@ -14,10 +14,10 @@
 		style='color: black; padding-left: 10px; padding-top: 10px; font-size: 12px'>
 	JavaEE行业应用二次快速开发平台 (G4Studio&reg)<br>
 	<br>
-	官方网站:<a href="http://www.g4it.org" target="_blank">www.g4it.org</a>
+	项目主页:<a href="http://www.g4it.org" target="_blank">www.g4it.org</a>
 	<br>
 	<br>
-	联系方式:307916217@qq.com
+	联系方式:ouraos@qq.com
 	</div>
 	<div id="infoDiv" class="x-hidden"
 		style='color: black; padding-left: 10px; padding-top: 10px; font-size: 12px; line-height:25px'>
