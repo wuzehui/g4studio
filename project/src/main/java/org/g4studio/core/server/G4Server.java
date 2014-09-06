@@ -2,7 +2,9 @@ package org.g4studio.core.server;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.eclipse.jetty.server.Connector;
 import org.eclipse.jetty.server.Server;
+import org.eclipse.jetty.server.nio.SelectChannelConnector;
 import org.eclipse.jetty.webapp.WebAppContext;
 import org.g4studio.common.util.SpringBeanLoader;
 import org.g4studio.core.properties.PropertiesFactory;
@@ -55,7 +57,12 @@ public class G4Server {
 		    log.info("Spring初始化成功,SpringBean已经被实例化。");
 		}
 		final String webRoot = System.getProperty("user.dir") + "/webapp";
-		Server server = new Server(port);
+		Server server = new Server();
+		SelectChannelConnector connector0 = new SelectChannelConnector();
+		//disable nio cache to unlock the css and js file when running
+		connector0.setUseDirectBuffers(false);
+		connector0.setPort(port);
+		server.setConnectors(new Connector[] {connector0});
 		WebAppContext context = new WebAppContext();
 		context.setDescriptor(webRoot + "/WEB-INF/web.xml");
 		context.setResourceBase(webRoot);
