@@ -56,7 +56,8 @@ public class G4Server {
 		}
 		final String webRoot = System.getProperty("user.dir") + "/webapp";
 		Server server = new Server();
-	        //disable nio cache to unlock the css and js file when running
+		SelectChannelConnector connector0 = new SelectChannelConnector();
+		//disable nio cache to unlock the css and js file when running
 		connector0.setUseDirectBuffers(false);
 		connector0.setPort(port);
 		server.setConnectors(new Connector[] {connector0});	
