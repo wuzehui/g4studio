@@ -2,7 +2,9 @@ package org.g4studio.core.server;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.eclipse.jetty.server.Connector;
 import org.eclipse.jetty.server.Server;
+import org.eclipse.jetty.server.nio.SelectChannelConnector;
 import org.eclipse.jetty.webapp.WebAppContext;
 import org.g4studio.common.util.SpringBeanLoader;
 import org.g4studio.core.properties.PropertiesFactory;
