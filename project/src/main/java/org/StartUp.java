@@ -7,7 +7,6 @@ import org.g4studio.core.server.G4Server;
 
 /**
  * 系统启动
- * 
  * @author XiongChun
  * @since 2009-01-13
  */
