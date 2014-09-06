@@ -22,7 +22,7 @@ Ext.onReady(function() {
 
 	var my_height1 = document.body.clientHeight - 35;
 	var my_height = document.body.clientHeight - 65;
-	var my_sina = '<div style="margin:10px"><a href="http://42.120.21.17:8888/g4studio/g4studio-doc.zip">《G4Studio开发指南》下载</a></div>';
+	var my_doc = '<div style="margin:10px"><a href="http://42.120.21.17:8888/g4studio/g4studio-doc.zip">《G4Studio开发指南》下载</a></div>';
 	var viewport = new Ext.Viewport({
 		layout : 'border',
 		items : [{
@@ -37,15 +37,21 @@ Ext.onReady(function() {
 									layout : 'fit',
 									// tools : tools,
 									height : my_height1,
-									html : my_sina
+									html:'无'
 								}]
 					}, {
 						columnWidth : .4,
 						style : 'padding:8px 8px 8px 8px',
 						items : [{
+							title : '文档下载',
+							html : my_doc
+						}, {
 							title : '联系方式',
 							// tools : tools,
-							html : '<div style=height:60px;line-height:25px class=commoncss>&nbsp;&nbsp;电子邮箱: ouraos@qq.com<br>&nbsp;&nbsp;项目主页：<a href="http://www.g4it.org" target="_blank">www.g4it.org</a></div>'
+							html : '<div style=height:60px;line-height:25px class=commoncss>&nbsp;&nbsp;电子邮箱: 307916217@qq.com<br>&nbsp;&nbsp;项目主页：<a href="http://www.g4it.org" target="_blank">www.g4it.org</a></div>'
+						},{
+							title : '文档下载',
+							contentEl:'sina_weibo'
 						}, {
 							title : '舍我其谁',
 							// tools : tools,

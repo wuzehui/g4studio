@@ -4,8 +4,9 @@
 <G4Studio:ext.myux uxType="tipwindow" />
 <G4Studio:import src="/system/admin/js/welcome.js" />
 <G4Studio:body cls="noYScrollBar">
-<%-- 
-<iframe width="100%" height="510" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=510&fansRow=1&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=2756431474&verifier=3f8e70e3&dpc=1"></iframe>
---%>
+	<div class="commoncss" id="sina_weibo" align="center">
+		<a href="http://weibo.com/u/2756431474?s=6uyXnP" target="_blank"><img border="0"
+			src="http://service.t.sina.com.cn/widget/qmd/2756431474/3f8e70e3/1.png" /></a>
+	</div>
 </G4Studio:body>
 </G4Studio:html>
