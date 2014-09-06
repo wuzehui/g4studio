@@ -17,7 +17,7 @@ public class G4Server {
 	private static Log log = LogFactory.getLog(G4Server.class);
 
 	/**
-	 * 监听端口, 缺省为169。测试提交效果。
+	 * 监听端口, 缺省为169。
 	 */
 	private int port = 169;
 
