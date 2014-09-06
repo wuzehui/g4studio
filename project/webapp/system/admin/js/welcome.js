@@ -11,7 +11,6 @@ Ext.onReady(function() {
 		});
 
 Ext.onReady(function() {
-
 	Ext.state.Manager.setProvider(new Ext.state.CookieProvider());
 
 	var tools = [{
