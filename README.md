@@ -4,5 +4,7 @@ G4Studio行业应用二次快速开发平台基于JavaEE技术体系，面向中
 [http://42.120.21.17:8888/g4studio](http://42.120.21.17:8888/g4studio)
 ### G4Studio开发指南
 http://42.120.21.17:8888/g4studio/g4studio-doc.zip
+### 作者微博互粉
+[http://weibo.com/afghan007](http://weibo.com/afghan007)
 ### G4Studio部分截屏 
 ![github](http://dl2.iteye.com/upload/attachment/0098/0655/a73393b1-3e3e-3869-87e0-40ce57c22f93.gif "G4Studio截屏")
