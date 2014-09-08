@@ -49,7 +49,7 @@ Ext.onReady(function() {
 							// tools : tools,
 							html : '<div style=height:60px;line-height:25px class=commoncss>&nbsp;&nbsp;电子邮箱: 307916217@qq.com<br>&nbsp;&nbsp;项目主页：<a href="http://www.g4it.org" target="_blank">www.g4it.org</a></div>'
 						},{
-							title : '文档下载',
+							title : '新浪微博',
 							contentEl:'sina_weibo'
 						}, {
 							title : '舍我其谁',
