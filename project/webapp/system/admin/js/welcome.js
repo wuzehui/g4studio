@@ -41,7 +41,7 @@ Ext.onReady(function() {
 						columnWidth : .3,
 						style : 'padding:8px 8px 8px 8px',
 						items : [{
-							title : '文档下载',
+							title : '文档下载 ',
 							html : my_doc
 						}, {
 							title : '联系方式',
