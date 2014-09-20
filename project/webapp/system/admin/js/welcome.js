@@ -34,8 +34,8 @@ Ext.onReady(function() {
 						items : [{
 									title : '《G4Studio开发指南》',
 									layout : 'fit',
-									height : my_height1,
-									html:'<iframe width="738" height="500" class="preview-iframe" scrolling="no" frameborder="0" src="http://download.csdn.net/source/preview/7902861/c74a39e3e0a9823d54541e98ea96f5a7" ></iframe>'
+									height : 550,
+									html:'<iframe width="738" height="550" class="preview-iframe" scrolling="no" frameborder="0" src="http://download.csdn.net/source/preview/7902861/c74a39e3e0a9823d54541e98ea96f5a7" ></iframe>'
 								}]
 					}, {
 						columnWidth : .3,
