@@ -29,17 +29,16 @@ Ext.onReady(function() {
 			region : 'center',
 			margins : '3 3 3 3',
 			items : [{
-						columnWidth : .6,
+						columnWidth : .7,
 						style : 'padding:8px 0px 8px 8px',
 						items : [{
-									title : '信息栏',
+									title : '《G4Studio开发指南》',
 									layout : 'fit',
-									// tools : tools,
 									height : my_height1,
-									html:'无'
+									html:'<iframe width="738" height="500" class="preview-iframe" scrolling="no" frameborder="0" src="http://download.csdn.net/source/preview/7902861/c74a39e3e0a9823d54541e98ea96f5a7" ></iframe>'
 								}]
 					}, {
-						columnWidth : .4,
+						columnWidth : .3,
 						style : 'padding:8px 8px 8px 8px',
 						items : [{
 							title : '文档下载',
